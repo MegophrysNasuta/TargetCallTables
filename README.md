@@ -24,6 +24,10 @@ pre-configured order.
 
 - set PlayerName to the indicated slot in the prioritized target list
 
+`nt` (next target)
+
+- cycle through targets, setting and calling them. Upon reaching the end of the list, issues a warning that it will start over at the beginning. Hitting the alias again will confirm and loop back. (Otherwise you can reset using one of the above to do something different.)
+
 ## Configuration
 
 Configuration options are available in the script, OPTIONS.
